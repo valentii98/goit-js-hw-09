@@ -16,3 +16,21 @@ img {
   display: block;
   max-width: 100%;
 }
+button {
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px gray;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
